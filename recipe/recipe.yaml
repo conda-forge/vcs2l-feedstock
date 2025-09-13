@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: vcs2l
-  version: "1.1.4"
+  version: "1.1.5"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/vcs2l-${{ version }}.tar.gz
-  sha256: e6b053d6371e4d7e196d2bdb6e729bd72a069310ad17246a6e0bf0660178cfae
+  sha256: 3cc7583f65fa3509b824b72f448f9ed7433efe8443ba331a9af4e2ce685524ca
 
 build:
   number: 0
